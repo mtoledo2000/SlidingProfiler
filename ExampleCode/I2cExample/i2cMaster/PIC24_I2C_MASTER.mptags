@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+I2C_RECV	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	81;"	v	line:81
+I2C_TRANS	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	81;"	v	line:81
+USE_AND_OR	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	66;"	d	line:66	file:
+_MI2C1Interrupt	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	84;"	f	line:84	signature:(void)
+config1	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	92;"	l	line:92
+config2	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	93;"	l	line:93
+i	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	92;"	l	line:92
+main	C:\SlidingProfiler\ExampleCode\I2cExample\i2c_master.c	90;"	f	line:90	signature:(void)
