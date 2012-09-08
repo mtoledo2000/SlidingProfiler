@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Send an Email"
+            android:id="@+id/textView" android:layout_gravity="center"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="64dp" android:layout_gravity="left|center_vertical">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSG To:"
+                android:id="@+id/textView1" android:layout_gravity="left|center_vertical"/>
+        <EditText
+                android:layout_width="189dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/email" android:autoLink="email"
+                android:hint="Who's this too?"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp" android:layout_gravity="left|center_vertical">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Subject:"
+                android:id="@+id/textView3" android:layout_marginTop="3dp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject" android:layout_gravity="center" android:hint="What is the topic?"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp" android:layout_gravity="left|center_vertical">
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="139dp"
+            android:id="@+id/body" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Email"
+            android:id="@+id/btnSend" android:clickable="true" android:enabled="true"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
